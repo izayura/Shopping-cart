@@ -16,8 +16,8 @@ app.use(express.json());
 
 //Routes
 console.log()
-app.use('/item', require('./routes/item.js'));
-app.use('/cart', require('./routes/order.js'));
+app.use('/api/item', require('./routes/item.js'));
+app.use('/api/cart', require('./routes/order.js'));
 
 //Static Files
 console.log(__dirname + '\\public');
