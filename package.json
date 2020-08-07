@@ -1,0 +1,21 @@
+{
+  "name": "shopping-cart",
+  "version": "1.0.0",
+  "description": "Project for a website to shop online(Front and Back end)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "Gloria Ramirez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.27",
+    "mongoose-type-url": "^2.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {}
+}
