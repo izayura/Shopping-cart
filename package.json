@@ -16,7 +16,8 @@
     "mongoose": "^5.9.27",
     "mongoose-type-url": "^2.0.0",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "vue": "^2.6.11"
   },
   "devDependencies": {
     "@babel/core": "^7.11.1",
