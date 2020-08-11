@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import Items from './ItemsComponents.vue'
+import Items from './ItemsComponent.vue'
 
 export default{
     name:'App',
