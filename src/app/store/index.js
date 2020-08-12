@@ -7,6 +7,7 @@ export default new Vuex.Store({
     state: {
         items:[],
         sortType:'',
+        filterType:''
     },
     mutations: {
         displayItems(state, items){
@@ -28,6 +29,22 @@ export default new Vuex.Store({
         sortHtoL(state){
             state.sortType='Sort by Price(High to Low)';
             console.log(state.sortType);
+        },
+        filterElectronics(state){
+            state.filterType='electronics';
+            console.log(state.filterType);
+        },
+        filterJewelery(state){
+            state.filterType='jewelery';
+            console.log(state.filterType);
+        },
+        filterMenClothing(state){
+            state.filterType='men clothing';
+            console.log(state.filterType);
+        },
+        filterWomenClothing(state){
+            state.filterType='women clothing';
+            console.log(state.filterType);
         }
     },
     actions: {
